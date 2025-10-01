@@ -34,7 +34,7 @@ export default function AllSections() {
               },
               {
                 title: 'Cost Savings & ROI',
-                content: 'Annual Software Costs: Sage 50 (£500-800/year) + Trello Business (£120/user/year × team size) + BoostKit. One Odoo System means lower total cost plus unified platform. Implementation ROI recovered through efficiency gains in 12-18 months.'
+                content: 'Annual Software Costs: Sage 50 (£500-800/year) + Trello Business (£120/user/year × team size) + Boostkit (£1200/year). One Odoo System means lower total cost plus unified platform. Implementation ROI recovered through efficiency gains in 12-18 months.'
               }
             ].map((block, index) => (
               <motion.div
@@ -85,7 +85,7 @@ export default function AllSections() {
 │      ODOO ERP (Complete Backend System)         │
 │                                                 │
 │  ┌─────────────────────────────────────────┐   │
-│  │  LEAD GENERATION (Replaces BoostKit)    │   │
+│  │  LEAD GENERATION (Replaces Boostkit)    │   │
 │  │  • Lead capture & scoring               │   │
 │  │  • Automated nurturing sequences        │   │
 │  │  • Source attribution & ROI tracking    │   │
@@ -109,7 +109,7 @@ export default function AllSections() {
 │  │  • Team collaboration                   │   │
 │  └─────────────────────────────────────────┘   │
 │                                                 │
-│     REPLACES: Sage 50 + Trello + BoostKit      │
+│     REPLACES: Sage 50 + Trello + Boostkit      │
 │        ONE SYSTEM • ONE LOGIN • ONE TRUTH       │
 └─────────────────────────────────────────────────┘`}
             </pre>
@@ -163,7 +163,7 @@ export default function AllSections() {
                 items: [
                   '3 days on-site with your team',
                   'Document current processes across all systems',
-                  'Map BoostKit lead generation workflows for replication',
+                  'Map Boostkit lead generation workflows for replication',
                   'Plan Sage 50 financial data migration strategy',
                   'Export Trello boards and project data',
                   'Design Next.js ↔ Odoo API architecture'
@@ -178,7 +178,7 @@ export default function AllSections() {
                   'Complete Sage 50 migration to Odoo Accounting',
                   'Migrate chart of accounts, customers, suppliers',
                   'Setup multi-currency and UK VAT compliance',
-                  'Replicate BoostKit lead capture and scoring',
+                  'Replicate Boostkit lead capture and scoring',
                   'Configure automated nurturing sequences',
                   'Basic Sales CRM and API endpoints'
                 ],
@@ -331,7 +331,7 @@ export default function AllSections() {
               <div className="grid md:grid-cols-2 gap-3 text-sm md:text-base">
                 {[
                   'Replace Sage 50 with Odoo Accounting',
-                  'Replace BoostKit with Odoo CRM (full functionality replication + AI)',
+                  'Replace Boostkit with Odoo CRM (full functionality replication + AI)',
                   'Replace Trello with Odoo Projects',
                   'Complete operations & inventory management',
                   'Manufacturing & quality control workflows',
@@ -367,7 +367,7 @@ export default function AllSections() {
                   <ul className="space-y-1 text-[#666666]">
                     <li>• Sage 50 Professional: £650/year</li>
                     <li>• Trello Business (5 users): £600/year</li>
-                    <li>• BoostKit: Variable/year</li>
+                    <li>• Boostkit: £1200/year</li>
                   </ul>
                 </div>
                 <div className="border-t border-[#E0E0E0] pt-4">
@@ -412,7 +412,7 @@ export default function AllSections() {
         </div>
       </section>
 
-      {/* BoostKit Migration */}
+      {/* Boostkit Migration */}
       <section id="boostkit-migration" className="py-20 px-6 bg-[#F5F5F5]">
         <div className="max-w-[1200px] mx-auto">
           <motion.h2
@@ -421,7 +421,7 @@ export default function AllSections() {
             viewport={{ once: true }}
             className="text-center mb-6"
           >
-            How We&apos;ll Replicate & Enhance Your BoostKit Functionality
+            How We&apos;ll Replicate & Enhance Your Boostkit Functionality
           </motion.h2>
 
           <motion.p
@@ -430,7 +430,7 @@ export default function AllSections() {
             viewport={{ once: true }}
             className="text-center text-lg text-[#666666] mb-12 max-w-3xl mx-auto"
           >
-            We&apos;ll migrate everything you love about BoostKit to Odoo, then make it even better with AI and full ERP integration.
+            We&apos;ll migrate everything you love about Boostkit to Odoo, then make it even better with AI and full ERP integration.
           </motion.p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -476,7 +476,7 @@ export default function AllSections() {
                   <div className="mb-4">
                     <div className="flex items-center gap-2 mb-2">
                       <X size={16} className="text-[#F59E0B]" />
-                      <h4 className="text-sm font-semibold text-[#666666]">CURRENT (BoostKit):</h4>
+                      <h4 className="text-sm font-semibold text-[#666666]">CURRENT (Boostkit):</h4>
                     </div>
                     <p className="text-sm text-[#666666] ml-6">{feature.current}</p>
                   </div>
@@ -636,11 +636,6 @@ export default function AllSections() {
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                icon: Mail,
-                title: 'Daily Progress Updates',
-                description: 'Every working day you\'ll receive email summary of work completed, key developments and milestones reached, any blockers or items needing your input, and tomorrow\'s plan and priorities. You\'ll never wonder what\'s happening.'
-              },
-              {
                 icon: Calendar,
                 title: 'Weekly Review Meetings',
                 description: 'Every week we\'ll have 1-hour progress review call or on-site visit, demo of new functionality built that week, discussion of upcoming work, and address any questions or concerns. Stay aligned and involved throughout.'
@@ -734,7 +729,7 @@ export default function AllSections() {
             viewport={{ once: true }}
             className="text-xl mb-8 opacity-90 max-w-2xl mx-auto"
           >
-            Replace Sage 50, Trello, and BoostKit with one powerful, unified Odoo ERP system. Keep your perfect website. Gain AI-powered intelligence.
+            Replace Sage 50, Trello, and Boostkit with one powerful, unified Odoo ERP system. Keep your perfect website. Gain AI-powered intelligence.
           </motion.p>
 
           <motion.div

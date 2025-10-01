@@ -10,7 +10,7 @@ const sections = [
   { id: 'architecture', title: 'System Architecture', icon: Link2, description: 'How everything connects' },
   { id: 'timeline', title: 'Implementation Timeline', icon: Calendar, description: '6 months to full consolidation' },
   { id: 'investment', title: 'Investment Breakdown', icon: DollarSign, description: 'Pricing & ROI' },
-  { id: 'boostkit-migration', title: 'BoostKit Migration', icon: RefreshCw, description: 'How we replicate functionality' },
+  { id: 'boostkit-migration', title: 'Boostkit Migration', icon: RefreshCw, description: 'How we replicate functionality' },
   { id: 'project-delivery', title: 'Project Delivery', icon: Rocket, description: 'What to expect' },
   { id: 'ai-automation', title: 'AI Automation', icon: Bot, description: 'Claude-powered intelligence' }
 ];

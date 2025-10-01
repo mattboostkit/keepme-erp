@@ -22,7 +22,7 @@ export default function Hero() {
           className="mb-8"
         >
           <p className="text-[#3A5A78] font-semibold mb-4 text-sm tracking-wider uppercase">
-            BoostKit × KeepMe Lifestyle
+            Boostkit × KeepMe Lifestyle
           </p>
         </motion.div>
 
@@ -45,7 +45,7 @@ export default function Hero() {
             Complete Business Systems Consolidation
           </h2>
           <p className="text-lg md:text-xl text-[#666666]">
-            Replace Sage 50 • Trello • BoostKit with Unified Odoo ERP
+            Replace Sage 50 • Trello • Boostkit with Unified Odoo ERP
           </p>
         </motion.div>
 

@@ -6,8 +6,8 @@ import { Target, DollarSign, Clipboard, Factory, BarChart3, Bot, Globe, Database
 const features = [
   {
     icon: Target,
-    title: 'Lead Generation & CRM (Replaces BoostKit)',
-    description: 'Replicate all BoostKit lead generation functionality in Odoo with enhanced AI capabilities. Advanced lead scoring, automated nurturing workflows, source tracking, and seamless pipeline management. Your lead generation becomes smarter with Claude AI integration.'
+    title: 'Lead Generation & CRM (Replaces Boostkit)',
+    description: 'Replicate all Boostkit lead generation functionality in Odoo with enhanced AI capabilities. Advanced lead scoring, automated nurturing workflows, source tracking, and seamless pipeline management. Your lead generation becomes smarter with Claude AI integration.'
   },
   {
     icon: DollarSign,
@@ -42,7 +42,7 @@ const features = [
   {
     icon: Database,
     title: 'Complete Data Migration',
-    description: 'Legacy data from Sage 50, Trello, and BoostKit carefully migrated and validated. Historical transactions, customer records, project data, and lead information all preserved in your new unified system.'
+    description: 'Legacy data from Sage 50, Trello, and Boostkit carefully migrated and validated. Historical transactions, customer records, project data, and lead information all preserved in your new unified system.'
   }
 ];
 
@@ -59,7 +59,7 @@ export default function CompleteSolution() {
         >
           <h2 className="mb-6">The Complete Solution</h2>
           <p className="text-lg text-[#666666] leading-relaxed">
-            We are implementing a comprehensive headless Odoo ERP solution that consolidates your entire business technology stack. Odoo will replace Sage 50, Trello, AND BoostKit, providing unified management for lead generation, sales, accounting, operations, inventory, and project management - all accessible through your existing Next.js website at keepme.co.uk via secure APIs.
+            We are implementing a comprehensive headless Odoo ERP solution that consolidates your entire business technology stack. Odoo will replace Sage 50, Trello, AND Boostkit, providing unified management for lead generation, sales, accounting, operations, inventory, and project management - all accessible through your existing Next.js website at keepme.co.uk via secure APIs.
           </p>
         </motion.div>
 
@@ -98,7 +98,7 @@ export default function CompleteSolution() {
         >
           <h3 className="text-2xl mb-4">Complete System Replacement:</h3>
           <p className="text-lg opacity-90 leading-relaxed">
-            Replaces Sage 50 + Trello + BoostKit with one powerful, integrated platform. One system, one login, one source of truth for your entire business.
+            Replaces Sage 50 + Trello + Boostkit with one powerful, integrated platform. One system, one login, one source of truth for your entire business.
           </p>
         </motion.div>
       </div>

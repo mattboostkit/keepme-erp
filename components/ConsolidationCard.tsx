@@ -21,7 +21,7 @@ export default function ConsolidationCard() {
             <div className="space-y-4">
               <h3 className="text-xl font-semibold mb-6 text-[#3A5A78]">CURRENT STACK</h3>
               <div className="space-y-3">
-                {['Sage 50', 'Trello', 'BoostKit', '+ Your Next.js site'].map((item, index) => (
+                {['Sage 50', 'Trello', 'Boostkit', '+ New KeepMe Next.js site'].map((item, index) => (
                   <motion.div
                     key={item}
                     initial={{ opacity: 0, x: -20 }}
@@ -61,7 +61,7 @@ export default function ConsolidationCard() {
                 viewport={{ once: true }}
                 className="bg-white p-4 rounded-lg border border-[#E0E0E0] shadow-sm"
               >
-                <p className="font-medium text-[#2C2C2C]">+ Your Next.js site</p>
+                <p className="font-medium text-[#2C2C2C]">+ New KeepMe Next.js site</p>
               </motion.div>
             </div>
           </div>

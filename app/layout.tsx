@@ -5,12 +5,12 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KeepMe Lifestyle Business Systems Consolidation | BoostKit Proposal",
-  description: "Complete Odoo ERP implementation replacing Sage 50, Trello, and BoostKit with unified AI-powered system. £32,000 | 6 Months | Professional proposal by BoostKit.",
+  title: "KeepMe Lifestyle Business Systems Consolidation | Boostkit Proposal",
+  description: "Complete Odoo ERP implementation replacing Sage 50, Trello, and Boostkit with unified AI-powered system. £32,000 | 6 Months | Professional proposal by Boostkit.",
   keywords: "Odoo ERP, Business Systems Consolidation, Sage 50 Migration, Trello Alternative, CRM Integration, UK Business Software",
   openGraph: {
     title: "KeepMe Lifestyle Business Systems Consolidation",
-    description: "Replace Sage 50, Trello & BoostKit with unified Odoo ERP. Complete proposal for £32,000 over 6 months.",
+    description: "Replace Sage 50, Trello & Boostkit with unified Odoo ERP. Complete proposal for £32,000 over 6 months.",
     type: "website",
   },
 };
