@@ -1,19 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --font-sans: Inter, 'Helvetica Neue', Arial, sans-serif;
-
-  --color-*: initial;
-  --color-primary-bg: #ffffff;
-  --color-secondary-bg: #f5f5f5;
-  --color-primary-text: #2c2c2c;
-  --color-secondary-text: #666666;
-  --color-accent-teal: #00a896;
-  --color-accent-navy: #3a5a78;
-  --color-border: #e0e0e0;
-  --color-success-green: #10b981;
-  --color-warning-amber: #f59e0b;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
