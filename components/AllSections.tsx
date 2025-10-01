@@ -65,54 +65,127 @@ export default function AllSections() {
             Unified Business Architecture
           </motion.h2>
 
+          {/* Website Layer */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-br from-[#F5F5F5] to-white border-2 border-[#E0E0E0] rounded-2xl p-8 font-mono text-sm"
+            className="mb-6"
           >
-            <pre className="overflow-x-auto text-[#2C2C2C]">
-{`┌─────────────────────────────────────────────────┐
-│   EXISTING NEXT.JS WEBSITE (keepme.co.uk)       │
-│            Stays Exactly As Is                  │
-│   + Enhanced API Integrations for Portal        │
-└──────────────────┬──────────────────────────────┘
-                   │
-                   │ Secure REST API Layer
-                   │
-                   ↓
-┌─────────────────────────────────────────────────┐
-│      ODOO ERP (Complete Backend System)         │
-│                                                 │
-│  ┌─────────────────────────────────────────┐   │
-│  │  LEAD GENERATION (Replaces Boostkit)    │   │
-│  │  • Lead capture & scoring               │   │
-│  │  • Automated nurturing sequences        │   │
-│  │  • Source attribution & ROI tracking    │   │
-│  └─────────────────────────────────────────┘   │
-│                    ↓ Automatic Flow             │
-│  ┌─────────────────────────────────────────┐   │
-│  │  SALES CRM                              │   │
-│  │  • Opportunity pipeline management      │   │
-│  │  • Quoting & pricing                    │   │
-│  └─────────────────────────────────────────┘   │
-│                    ↓ Triggers                   │
-│  ┌─────────────────────────────────────────┐   │
-│  │  ACCOUNTING (Replaces Sage 50)          │   │
-│  │  • Invoicing & payments                 │   │
-│  │  • Multi-currency, UK VAT               │   │
-│  └─────────────────────────────────────────┘   │
-│                                                 │
-│  ┌─────────────────────────────────────────┐   │
-│  │  PROJECTS (Replaces Trello)             │   │
-│  │  • Task & milestone management          │   │
-│  │  • Team collaboration                   │   │
-│  └─────────────────────────────────────────┘   │
-│                                                 │
-│     REPLACES: Sage 50 + Trello + Boostkit      │
-│        ONE SYSTEM • ONE LOGIN • ONE TRUTH       │
-└─────────────────────────────────────────────────┘`}
-            </pre>
+            <div className="bg-gradient-to-br from-[#3A5A78] to-[#2C4A5E] text-white p-6 rounded-xl border-2 border-[#3A5A78] shadow-lg">
+              <h3 className="text-xl font-semibold mb-2 text-center">Existing Next.js Website (keepme.co.uk)</h3>
+              <p className="text-center text-sm opacity-90">Stays Exactly As Is + Enhanced API Integrations for Portal</p>
+            </div>
+          </motion.div>
+
+          {/* API Connection */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            className="flex justify-center my-4"
+          >
+            <div className="flex flex-col items-center">
+              <div className="w-1 h-8 bg-gradient-to-b from-[#3A5A78] to-[#00A896]"></div>
+              <div className="bg-white border-2 border-[#00A896] px-4 py-2 rounded-lg shadow-md">
+                <p className="text-sm font-semibold text-[#00A896]">Secure REST API Layer</p>
+              </div>
+              <div className="w-1 h-8 bg-gradient-to-b from-[#00A896] to-[#00A896]"></div>
+            </div>
+          </motion.div>
+
+          {/* Odoo ERP Container */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="bg-gradient-to-br from-[#F5F5F5] to-white border-3 border-[#00A896] rounded-2xl p-6 md:p-8 shadow-xl"
+          >
+            <h3 className="text-2xl font-bold text-center mb-2 text-[#00A896]">Odoo ERP</h3>
+            <p className="text-center text-sm text-[#666666] mb-6">Complete Backend System</p>
+
+            {/* Module Cards */}
+            <div className="space-y-4">
+              {[
+                {
+                  title: 'Lead Generation',
+                  subtitle: 'Replaces Boostkit',
+                  items: ['Lead capture & scoring', 'Automated nurturing sequences', 'Source attribution & ROI tracking'],
+                  gradient: 'from-[#00A896] to-[#00C7B0]',
+                  arrow: true
+                },
+                {
+                  title: 'Sales CRM',
+                  subtitle: '',
+                  items: ['Opportunity pipeline management', 'Quoting & pricing'],
+                  gradient: 'from-[#00A896] to-[#00C7B0]',
+                  arrow: true
+                },
+                {
+                  title: 'Accounting',
+                  subtitle: 'Replaces Sage 50',
+                  items: ['Invoicing & payments', 'Multi-currency, UK VAT'],
+                  gradient: 'from-[#00A896] to-[#00C7B0]',
+                  arrow: false
+                },
+                {
+                  title: 'Projects',
+                  subtitle: 'Replaces Trello',
+                  items: ['Task & milestone management', 'Team collaboration'],
+                  gradient: 'from-[#00A896] to-[#00C7B0]',
+                  arrow: false
+                }
+              ].map((module, index) => (
+                <motion.div
+                  key={module.title}
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                >
+                  <div className={`bg-gradient-to-r ${module.gradient} text-white p-4 md:p-5 rounded-xl shadow-md`}>
+                    <div className="flex justify-between items-start mb-3">
+                      <div>
+                        <h4 className="text-lg md:text-xl font-bold">{module.title}</h4>
+                        {module.subtitle && (
+                          <p className="text-xs md:text-sm opacity-90 mt-1">{module.subtitle}</p>
+                        )}
+                      </div>
+                    </div>
+                    <ul className="space-y-1.5 text-sm md:text-base">
+                      {module.items.map((item) => (
+                        <li key={item} className="flex items-start gap-2">
+                          <span className="mt-1.5">•</span>
+                          <span className="opacity-95">{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  {module.arrow && (
+                    <div className="flex justify-center py-2">
+                      <div className="text-[#00A896] text-sm font-semibold">↓ {index === 0 ? 'Automatic Flow' : 'Triggers'}</div>
+                    </div>
+                  )}
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Bottom Summary */}
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
+              className="mt-6 pt-6 border-t-2 border-[#E0E0E0]"
+            >
+              <p className="text-center font-semibold text-[#2C2C2C] mb-2">
+                REPLACES: Sage 50 + Trello + Boostkit
+              </p>
+              <p className="text-center text-lg font-bold text-[#00A896]">
+                ONE SYSTEM • ONE LOGIN • ONE TRUTH
+              </p>
+            </motion.div>
           </motion.div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
