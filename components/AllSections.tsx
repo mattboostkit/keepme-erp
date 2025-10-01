@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Check, X, ArrowRight, Package, Mail, BarChart, Clock, Shield, FileText, Code, Server, Calendar, DollarSign } from 'lucide-react';
+import { Check, X, ArrowRight, Package, Mail, BarChart, Clock, Shield, FileText, Calendar, DollarSign } from 'lucide-react';
 
 export default function AllSections() {
   return (
@@ -421,7 +421,7 @@ export default function AllSections() {
             viewport={{ once: true }}
             className="text-center mb-6"
           >
-            How We'll Replicate & Enhance Your BoostKit Functionality
+            How We&apos;ll Replicate & Enhance Your BoostKit Functionality
           </motion.h2>
 
           <motion.p
@@ -430,7 +430,7 @@ export default function AllSections() {
             viewport={{ once: true }}
             className="text-center text-lg text-[#666666] mb-12 max-w-3xl mx-auto"
           >
-            We'll migrate everything you love about BoostKit to Odoo, then make it even better with AI and full ERP integration.
+            We&apos;ll migrate everything you love about BoostKit to Odoo, then make it even better with AI and full ERP integration.
           </motion.p>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -499,7 +499,7 @@ export default function AllSections() {
             viewport={{ once: true }}
             className="mt-12 bg-gradient-to-r from-[#00A896] to-[#3A5A78] text-white p-8 rounded-xl"
           >
-            <h3 className="text-2xl mb-4">Plus AI Enhancements You Don't Have Now:</h3>
+            <h3 className="text-2xl mb-4">Plus AI Enhancements You Don&apos;t Have Now:</h3>
             <div className="grid md:grid-cols-2 gap-4">
               {[
                 'Intelligent Lead Scoring: Claude AI analyses lead data to predict conversion likelihood and lifetime value',
